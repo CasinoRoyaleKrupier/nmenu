@@ -1,0 +1,5 @@
+{
+    "trailing-spaces.trimOnSave": true,
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+    "cmake.configureOnOpen": true
+}
