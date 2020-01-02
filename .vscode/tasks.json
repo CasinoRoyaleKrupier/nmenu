@@ -11,6 +11,14 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Remove build folder",
+            "type": "shell",
+            "command": "rm -rf build",
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
