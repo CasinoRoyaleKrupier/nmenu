@@ -17,7 +17,7 @@ void border_term(void)
 
     for (size_t i = 0; i < row; i++)
     {
-        mvprintw(i, 0, "%c", border_char[0]);
-        mvprintw(i, column - 1, "%c", border_char[0]);
+        mvprintw(i, 0, "|");
+        mvprintw(i, column - 1, "|");
     }
 }

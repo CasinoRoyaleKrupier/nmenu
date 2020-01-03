@@ -2,7 +2,5 @@
 
 void test_output(void)
 {
-    echo();
     printw("reload");
-    noecho();
 }
