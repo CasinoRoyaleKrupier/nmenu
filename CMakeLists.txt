@@ -5,7 +5,6 @@ set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 set(SOURCES
     ${SOURCE_DIR}/main.c
     ${SOURCE_DIR}/draw.c
-    ${SOURCE_DIR}/output.c
     )
 
 find_package(Curses REQUIRED)

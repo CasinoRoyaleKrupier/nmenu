@@ -9,15 +9,15 @@ void border_term(void)
 
     getmaxyx(stdscr, row, column);
 
-    for (size_t i = 0; i < column; i++)
-    {
-        mvprintw(0, i, "%c", border_char[0]);
-        mvprintw(row - 1, i, "%c", border_char[0]);
-    }
-
     for (size_t i = 0; i < row; i++)
     {
         mvprintw(i, 0, "|");
         mvprintw(i, column - 1, "|");
+    }
+
+    for (size_t i = 0; i < column; i++)
+    {
+        mvprintw(0, i, "%c", border_char[0]);
+        mvprintw(row - 1, i, "%c", border_char[0]);
     }
 }
